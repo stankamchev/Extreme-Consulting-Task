@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Grid, Typography } from "@mui/material";
-import { auth } from "../../lib/firebase";
+import { auth } from "../../config/firebase";
 import {
   ProfileItems,
   ProfileLogoutButton,
@@ -32,7 +32,7 @@ const Profile = () => {
     };
     uploadProfileImage();
   }, [uploadedImage]);
-  
+
   return (
     <ProfileWrapper container>
       <ProfileItems item xs={10} md={8} lg={6}>

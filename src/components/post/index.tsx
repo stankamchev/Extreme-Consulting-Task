@@ -3,7 +3,7 @@ import React, { FC, useEffect, useState } from "react";
 import { PostProps } from "./props";
 import { PostDeleteButton, PostImage, PostWrapper } from "./styled";
 import { collection, deleteDoc, doc, query, where } from "firebase/firestore";
-import { db } from "../../lib/firebase";
+import { db } from "../../config/firebase";
 import useGetQueryData from "../../hooks/use-get-query-data";
 import { IInteraction, IPostInteraction } from "../../types/interaction";
 import DeletePostModal from "../modals/delete-post-modal";

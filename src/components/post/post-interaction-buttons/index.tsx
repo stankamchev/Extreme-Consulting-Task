@@ -19,7 +19,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import { IInteraction } from "../../../types/interaction";
-import { db } from "../../../lib/firebase";
+import { db } from "../../../config/firebase";
 import { theme } from "../../../theme";
 
 const PostInteractionButtons: FC<PostInteractionButtonsProps> = ({

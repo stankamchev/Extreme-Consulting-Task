@@ -1,6 +1,6 @@
 import React from "react";
 import { ref, getDownloadURL } from "firebase/storage";
-import { storage } from "../lib/firebase";
+import { storage } from "../config/firebase";
 
 const useGetUserProfilePicture = async (currentUserId: string) => {
   if (currentUserId) {

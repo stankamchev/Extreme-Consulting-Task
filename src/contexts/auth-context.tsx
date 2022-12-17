@@ -10,7 +10,7 @@ import {
   signInWithEmailAndPassword,
   signOut,
 } from "firebase/auth";
-import { auth } from "../lib/firebase";
+import { auth } from "../config/firebase";
 import { IAuth } from "../types/auth";
 import { useNavigate } from "react-router-dom";
 import { useProfileContext } from "./profile-context";

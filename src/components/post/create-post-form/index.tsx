@@ -8,7 +8,7 @@ import { CreatePostFromAvatar, CreatePostWrapper } from "./styled";
 import PhotoIcon from "@mui/icons-material/Photo";
 import { Button, Paper } from "@mui/material";
 import { addDoc, collection, doc, getDoc } from "firebase/firestore";
-import { auth, db } from "../../../lib/firebase";
+import { auth, db } from "../../../config/firebase";
 import useUploadImage from "../../../hooks/use-upload-image";
 import { useProfileContext } from "../../../contexts/profile-context";
 import ImageUploadModal from "../../modals/image-upload-modal";

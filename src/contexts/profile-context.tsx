@@ -6,7 +6,7 @@ import React, {
   ReactNode,
 } from "react";
 import { User, updateProfile, onAuthStateChanged } from "firebase/auth";
-import { auth, storage } from "../lib/firebase";
+import { auth, storage } from "../config/firebase";
 import { getDownloadURL, ref } from "firebase/storage";
 import useGetUserProfilePicture from "../hooks/use-get-user-profile-picture";
 

@@ -5,7 +5,7 @@ import Post from "../../components/post/";
 import Profile from "../../components/profile";
 import { IPost } from "../../types/posts";
 import { HomeItems, HomeWrapper } from "./styled";
-import { db } from "../../lib/firebase";
+import { db } from "../../config/firebase";
 import useGetQueryData from "../../hooks/use-get-query-data";
 
 const Home = () => {
