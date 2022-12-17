@@ -18,7 +18,6 @@ const PostInfoBar: FC<PostInfoBarProps> = ({ userId, timestamp, username }) => {
     const getProfilePicture = async () => {
       const profilePicture = await getUserProfilePicture(userId);
       setCurrentUserProfilePicture(profilePicture || "./anonymous-pic.png");
-      console.log("idk man");
     };
     getProfilePicture();
   }, [profilePicture]);
