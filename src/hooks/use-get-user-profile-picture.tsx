@@ -13,6 +13,8 @@ const useGetUserProfilePicture = async (currentUserId: string) => {
       console.error((error as Error).message);
       return "./anonymous-pic.png";
     }
+  } else {
+    return "./anonymous-pic.png";
   }
 };
 

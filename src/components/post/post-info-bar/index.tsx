@@ -17,7 +17,7 @@ const PostInfoBar: FC<PostInfoBarProps> = ({ userId, timestamp, username }) => {
   useEffect(() => {
     const getProfilePicture = async () => {
       const profilePicture = await getUserProfilePicture(userId);
-      setCurrentUserProfilePicture(profilePicture || "./anonymous-pic.png");
+      setCurrentUserProfilePicture(profilePicture);
     };
     getProfilePicture();
   }, [profilePicture]);
