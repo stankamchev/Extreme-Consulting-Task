@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Button, Grid, Typography } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import NoEncryptionGmailerrorredIcon from "@mui/icons-material/NoEncryptionGmailerrorred";
 import ModalWrapper from "../modal-wrapper";
 import ModalInfo from "../modal-info";

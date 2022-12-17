@@ -19,7 +19,6 @@ import { SignInSchema, SignUpSchema } from "../../validation/auth";
 import ForgotPasswordModal from "../../components/modals/forgot-password-modal";
 import FormInputItem from "../../components/form-item";
 import WrongCredentialsModal from "../../components/modals/wrong-credentials-modal";
-import { Paper } from "@mui/material";
 
 const Auth = () => {
   const [authType, setAuthType] = useState("signUp");

@@ -9,6 +9,6 @@ export const email = {
 export const password = {
   password: Yup.string()
     .required("Password is required")
-    .min(3, "Password must be atleast 3 characters")
+    .min(6, "Password must be atleast 6 characters")
     .max(30, "Password is too long"),
 };

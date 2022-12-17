@@ -1,4 +1,4 @@
-import { Grid, Modal, Box } from "@mui/material";
+import { Grid, Modal } from "@mui/material";
 import { styled } from "@mui/system";
 import CloseIcon from "@mui/icons-material/Close";
 

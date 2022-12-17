@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Grid, styled } from "@mui/material";
+import { Avatar, Button, Grid, styled } from "@mui/material";
 
 export const ProfileWrapper = styled(Grid)(({ theme }) => ({
   display: "flex",

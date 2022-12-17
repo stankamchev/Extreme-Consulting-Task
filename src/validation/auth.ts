@@ -16,6 +16,7 @@ export const SignUpSchema = Yup.object({
   ...password,
   confirmPassword: Yup.string()
     .required("Confirm password is required")
+    .min(6, "Confirm password must be atleast 6 characters")
     .oneOf([Yup.ref("password"), null], "Passwords must match"),
 });
 
